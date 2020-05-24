@@ -113,7 +113,7 @@ h6 {
 }
 .nav-links {
   height: 0;
-  overflow: hidden;
+  overflow: hidden; 
   transition: var(--mainTransition);
   list-style-type: none;
 }
@@ -133,7 +133,7 @@ h6 {
 }
 
 .show-nav {
-  height: 100px;
+  height: 100px; /*change it if you need another nav link*/
 }
 @media screen and (min-width: 768px) {
   .nav-btn {
