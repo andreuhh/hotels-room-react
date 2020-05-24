@@ -252,6 +252,7 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
 }
 .services p {
   width: 80%;
@@ -298,11 +299,11 @@ h6 {
 /* end pf featured rooms */
 /* room */
 .room {
-  box-shadow: var(--lightShadow);
+  box-shadow: none;
   transition: var(--mainTransition);
 }
 .room:hover {
-  box-shadow: var(--darkShadow);
+  box-shadow: var(--lightShadow);
 }
 
 .img-container {
