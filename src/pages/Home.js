@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Banner from '../components/Banner';
+import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import Services from '../components/Services';
 import FeadturedRooms from '../components/FeadturedRooms';
@@ -20,7 +21,7 @@ export default function Home() {
             </Hero>
             <Services />
             <FeadturedRooms />
-
+            <Footer />
         </>
     )
 }
